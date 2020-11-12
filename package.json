@@ -1,0 +1,30 @@
+{
+    "name": "battle-dev",
+    "version": "0.0.1",
+    "repository": "https://github.com/ShyroeJB/BattleDev.git",
+    "author": "Jean-Baptiste Da Costa",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev": "node run.js",
+        "lint": "eslint --ext .js --ignore-path .gitignore .",
+        "lintfix": "eslint --fix --ext .js --ignore-path .gitignore ."
+    },
+    "lint-staged": {
+        "*.{js}": "yarn lintfix"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.6.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.11",
+        "prettier": "^2.0.5"
+    }
+}
