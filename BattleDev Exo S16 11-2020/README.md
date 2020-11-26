@@ -2,4 +2,9 @@
 
 Seconde Battle Dev
 
-- CLASSEMENT :
+- CLASSEMENT : 1976/5471(22:00)
+- Exo Finis 3/6
+  - Exercise 1 : Terminé
+  - Exercice 2 : Terminé
+  - Exercice 3 : Terminé
+  - Exercice 4 : Blocage
